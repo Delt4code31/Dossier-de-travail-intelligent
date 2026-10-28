@@ -3,7 +3,7 @@ import { FlaskConical, LogOut, Settings } from "lucide-react"
 
 import { AppLauncher } from "@/components/layout/app-launcher"
 import { CompanySwitcher } from "@/components/layout/company-switcher"
-import { CpaLogo } from "@/components/layout/logo"
+import { AppLogo } from "@/components/layout/logo"
 import { MobileNav } from "@/components/layout/mobile-nav"
 import { NotificationsMenu } from "@/components/layout/notifications-menu"
 import { Badge } from "@/components/ui/badge"
@@ -15,7 +15,7 @@ export function AppHeader() {
   return (
     <header className="flex shrink-0 flex-wrap items-center gap-x-3 gap-y-2 border-b px-4 py-2 sm:h-14 sm:flex-nowrap sm:gap-x-4 sm:px-6 sm:py-0">
       <MobileNav />
-      <CpaLogo />
+      <AppLogo />
       <Tooltip>
         <TooltipTrigger
           render={

@@ -18,11 +18,11 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "Dossier de travail · Audit CPA",
+    default: "Dossier de travail · Cabinet Exemple",
     template: "%s · Dossier de travail",
   },
   description:
-    "Analyse des dossiers clients à partir des données Pennylane — Audit CPA",
+    "Analyse des dossiers clients à partir des données Pennylane — Cabinet Exemple",
 }
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

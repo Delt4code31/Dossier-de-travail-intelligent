@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation"
 import { useState } from "react"
 import { Menu } from "lucide-react"
 
-import { CpaLogo } from "@/components/layout/logo"
+import { AppLogo } from "@/components/layout/logo"
 import { Button } from "@/components/ui/button"
 import { Sheet, SheetContent, SheetHeader, SheetTitle } from "@/components/ui/sheet"
 import { cn } from "@/lib/utils"
@@ -26,7 +26,7 @@ export function MobileNav() {
       <SheetContent side="left" className="w-72 gap-0 p-0">
         <SheetHeader className="border-b">
           <SheetTitle render={<div />}>
-            <CpaLogo />
+            <AppLogo />
           </SheetTitle>
         </SheetHeader>
         <nav className="flex flex-col gap-0.5 overflow-y-auto p-2">

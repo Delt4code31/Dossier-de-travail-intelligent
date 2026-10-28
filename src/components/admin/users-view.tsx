@@ -216,7 +216,7 @@ function InviteDialog({ open, onOpenChange }: { open: boolean; onOpenChange: (o:
           <FieldGroup className="gap-4">
             <Field>
               <FieldLabel htmlFor="inv-email">Adresse e-mail professionnelle</FieldLabel>
-              <Input id="inv-email" type="email" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="prenom.nom@audit-cpa.com" required />
+              <Input id="inv-email" type="email" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="prenom.nom@exemple.fr" required />
             </Field>
             <div className="grid grid-cols-2 gap-3">
               <Field>

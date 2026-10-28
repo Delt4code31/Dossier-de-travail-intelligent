@@ -191,7 +191,7 @@ export const DOSSIERS: Dossier[] = SEEDS.map((s, index) => {
       ? { status: "non_connecte", path: null, lastSyncAt: null }
       : {
           status: "connecte",
-          path: `CPA - Dossiers clients/${s.name}`,
+          path: `Cabinet Exemple - Dossiers clients/${s.name}`,
           lastSyncAt: minutesAgo(r.int(30, 60 * 5)),
         },
     fiscalDocsSyncAt: minutesAgo(r.int(60 * 2, 60 * 20)),

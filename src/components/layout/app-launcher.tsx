@@ -28,7 +28,7 @@ const APPS = [
   },
 ]
 
-/** Lanceur des applications de l'environnement CPA. */
+/** Lanceur des applications de du cabinet. */
 export function AppLauncher() {
   return (
     <Popover>
@@ -36,16 +36,16 @@ export function AppLauncher() {
         <TooltipTrigger
           render={
             <PopoverTrigger
-              render={<Button variant="ghost" size="icon-sm" className="text-muted-foreground" aria-label="Applications CPA" />}
+              render={<Button variant="ghost" size="icon-sm" className="text-muted-foreground" aria-label="Applications du cabinet" />}
             />
           }
         >
           <LayoutGrid />
         </TooltipTrigger>
-        <TooltipContent>Applications CPA</TooltipContent>
+        <TooltipContent>Applications du cabinet</TooltipContent>
       </Tooltip>
       <PopoverContent align="end" className="w-80 gap-1 p-1.5">
-        <div className="px-2 pt-1 pb-1.5 text-xs font-medium text-muted-foreground">Environnement CPA</div>
+        <div className="px-2 pt-1 pb-1.5 text-xs font-medium text-muted-foreground">Applications du cabinet</div>
         {APPS.map((app) => {
           const content = (
             <>
@@ -56,7 +56,6 @@ export function AppLauncher() {
                 )}
               >
                 {app.mark}
-                <span className="text-sky-500">.</span>
               </span>
               <span className="min-w-0 flex-1">
                 <span className="block text-sm font-medium">{app.name}</span>

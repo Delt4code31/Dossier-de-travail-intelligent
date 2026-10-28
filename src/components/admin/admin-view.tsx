@@ -76,7 +76,7 @@ export function AdminView() {
             <span className="ml-auto"><SyncStatus status="connecte" at={minutesAgo(240)} /></span>
           </div>
           <p className="text-xs text-muted-foreground">
-            Site « CPA - Dossiers clients » : {linkedSharepoint} dossiers reliés sur {DOSSIERS.length}. Connexion des utilisateurs par leur compte Microsoft.
+            Site « Cabinet Exemple - Dossiers clients » : {linkedSharepoint} dossiers reliés sur {DOSSIERS.length}. Connexion des utilisateurs par leur compte Microsoft.
           </p>
           <Button variant="outline" size="sm" className="mt-auto self-start" nativeButton={false} render={<a href="https://www.office.com/launch/sharepoint" target="_blank" rel="noreferrer" />}>
             Ouvrir SharePoint
@@ -96,11 +96,11 @@ export function AdminView() {
         </div>
         <div className="flex flex-col gap-3 rounded-xl border p-4">
           <div className="flex items-center gap-2">
-            <span className="flex size-8 items-center justify-center rounded-lg bg-muted text-sm font-extrabold tracking-tight">fi<span className="text-sky-500">.</span></span>
+            <span className="flex size-8 items-center justify-center rounded-lg bg-muted text-sm font-extrabold tracking-tight">fi</span>
             <div className="text-sm font-semibold">Fiscalis</div>
             <span className="ml-auto"><SyncStatus status="connecte" label="relié" /></span>
           </div>
-          <p className="text-xs text-muted-foreground">Même environnement CPA : messagerie, états du compte et attestations impots.gouv de chaque société.</p>
+          <p className="text-xs text-muted-foreground">Même environnement que le cabinet : messagerie, états du compte et attestations impots.gouv de chaque société.</p>
           <Button variant="outline" size="sm" className="mt-auto self-start" nativeButton={false} render={<a href="https://fiscalis.audit-cpa.net/" target="_blank" rel="noreferrer" />}>
             Ouvrir Fiscalis
             <ArrowUpRight data-icon="inline-end" />

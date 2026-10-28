@@ -69,7 +69,7 @@ export const USERS: User[] = [
     id: "yann",
     firstName: "Yann",
     lastName: "Jammes",
-    email: "yann.jammes@audit-cpa.com",
+    email: "yann.jammes@exemple.fr",
     role: "admin",
     title: "Expert-comptable associé",
     team: "tpe",

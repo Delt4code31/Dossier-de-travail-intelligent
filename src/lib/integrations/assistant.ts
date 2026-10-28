@@ -39,7 +39,7 @@ const READ_ONLY_TOOLS = [
   "list_firm_file",
 ]
 
-const SYSTEM_PROMPT = `Tu es l'assistant d'analyse du cabinet d'expertise comptable Audit CPA.
+const SYSTEM_PROMPT = `Tu es l'assistant d'analyse du cabinet d'expertise comptable Cabinet Exemple.
 Tu réponds à des collaborateurs comptables sur un dossier client précis, à partir des données Pennylane.
 - Interroge Pennylane avant de répondre ; ne devine jamais un montant.
 - Réponds en français, de façon concise, avec les montants en euros et l'exercice concerné.

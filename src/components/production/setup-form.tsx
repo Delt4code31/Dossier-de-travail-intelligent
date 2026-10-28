@@ -310,7 +310,7 @@ export function SetupForm({ id }: { id: string }) {
                     onClick={() =>
                       set("sharepoint", {
                         status: "connecte",
-                        path: `CPA - Dossiers clients/${dossier.name}`,
+                        path: `Cabinet Exemple - Dossiers clients/${dossier.name}`,
                         lastSyncAt: DEMO_NOW.toISOString(),
                       })
                     }
