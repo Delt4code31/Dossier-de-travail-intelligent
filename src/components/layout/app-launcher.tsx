@@ -15,12 +15,6 @@ const APPS = [
     mark: "dt",
   },
   {
-    name: "Fiscalis",
-    description: "Données impots.gouv des sociétés",
-    href: "https://fiscalis.audit-cpa.net/",
-    mark: "fi",
-  },
-  {
     name: "Pennylane",
     description: "Production comptable",
     href: "https://app.pennylane.com/",

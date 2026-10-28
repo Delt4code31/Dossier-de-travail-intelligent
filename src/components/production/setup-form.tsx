@@ -320,16 +320,6 @@ export function SetupForm({ id }: { id: string }) {
                   </Button>
                 )}
               </li>
-              <li className="flex items-center justify-between gap-2 px-4 py-3">
-                <div>
-                  <div className="text-sm font-medium">Fiscalis</div>
-                  <div className="text-xs text-muted-foreground">Messagerie et attestations impots.gouv</div>
-                </div>
-                <Button variant="ghost" size="sm" nativeButton={false} render={<a href="https://fiscalis.audit-cpa.net/" target="_blank" rel="noreferrer" />}>
-                  Ouvrir
-                  <ArrowUpRight data-icon="inline-end" />
-                </Button>
-              </li>
             </ul>
           </Panel>
         </div>

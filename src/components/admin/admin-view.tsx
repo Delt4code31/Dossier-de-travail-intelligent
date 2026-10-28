@@ -54,7 +54,7 @@ export function AdminView() {
     <PageContainer>
       <PageHeader title="Admin" description="Connexions de l'outil, synchronisations et paramètres généraux du cabinet." />
 
-      <div className="grid gap-4 md:grid-cols-2 2xl:grid-cols-4">
+      <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
         <div className="flex flex-col gap-3 rounded-xl border p-4">
           <div className="flex items-center gap-2">
             <span className="flex size-8 items-center justify-center rounded-lg bg-muted"><Landmark className="size-4" /></span>
@@ -93,18 +93,6 @@ export function AdminView() {
             Claude interroge Pennylane via le MCP, en lecture seule. À activer avec une clé API Anthropic du cabinet (voir le guide de mise en
             production).
           </p>
-        </div>
-        <div className="flex flex-col gap-3 rounded-xl border p-4">
-          <div className="flex items-center gap-2">
-            <span className="flex size-8 items-center justify-center rounded-lg bg-muted text-sm font-extrabold tracking-tight">fi</span>
-            <div className="text-sm font-semibold">Fiscalis</div>
-            <span className="ml-auto"><SyncStatus status="connecte" label="relié" /></span>
-          </div>
-          <p className="text-xs text-muted-foreground">Même environnement que le cabinet : messagerie, états du compte et attestations impots.gouv de chaque société.</p>
-          <Button variant="outline" size="sm" className="mt-auto self-start" nativeButton={false} render={<a href="https://fiscalis.audit-cpa.net/" target="_blank" rel="noreferrer" />}>
-            Ouvrir Fiscalis
-            <ArrowUpRight data-icon="inline-end" />
-          </Button>
         </div>
       </div>
 
